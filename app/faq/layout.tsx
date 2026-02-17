@@ -1,0 +1,72 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "FAQ - SprintiQ | AI-Native Agile Planning Tool",
+  description:
+    "SprintiQ FAQ - Frequently asked questions about AI-Native agile planning. Get answers about AI project management, AI sprint planning, and AI user story generation.",
+  keywords: [
+    "SprintiQ FAQ",
+    "sprintiq faq",
+    "SprintiQ FAQ Page",
+    "sprintiq faq page",
+    "SprintiQ AI FAQ",
+    "sprintiq ai faq",
+    "SprintiQ AI FAQ Page",
+    "sprintiq ai faq page",
+    "AI Native Agile Planning FAQ",
+    "ai native agile planning faq",
+    "AI Project Management FAQ",
+    "ai project management faq",
+    "AI Sprint Planning FAQ",
+    "ai sprint planning faq",
+    "AI User Story Generation FAQ",
+    "ai user story generation faq",
+    "Frequently Asked Questions",
+    "frequently asked questions",
+    "Common Questions",
+    "common questions",
+    "Help Questions",
+    "help questions",
+    "SprintiQ Questions",
+    "sprintiq questions",
+    "AI Agile Planning Questions",
+    "ai agile planning questions",
+    "SprintiQ",
+    "sprintiq",
+    "SprintiQ AI",
+    "sprintiq ai",
+    "AI Native Project management",
+    "AI Native Project Management",
+    "ai native project management",
+    "AI project management",
+    "ai project management",
+    "AI agile planning",
+    "ai agile planning",
+    "AI native agile",
+    "ai native agile",
+    "FAQ",
+    "faq",
+    "Questions",
+    "questions",
+    "Answers",
+    "answers",
+    "Help",
+    "help",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    title: "FAQ - SprintiQ | AI-Native Agile Planning Tool",
+    description:
+      "SprintiQ FAQ - Frequently asked questions about AI-Native agile planning. Get answers about AI project management, AI sprint planning, and AI user story generation.",
+    url: "https://www.sprintiq.ai/faq",
+    siteName: "SprintiQ",
+    images: [{ url: "/images/faq.png" }],
+  },
+};
+
+export default function FaqLayout({ children }: { children: React.ReactNode }) {
+  return <div>{children}</div>;
+}

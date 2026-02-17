@@ -1,0 +1,164 @@
+{
+  "summary": {
+    "totalPages": 3,
+    "internalLinks": 100,
+    "externalLinks": 10,
+    "totalKeywords": 47,
+    "structuredDataTypes": 5,
+    "lastUpdated": "2025-07-28T19:45:11.123Z"
+  },
+  "pages": [
+    {
+      "url": "/about",
+      "title": "About SprintiQ - AI-Native Agile Planning Team",
+      "description": "Meet the SprintiQ team revolutionizing agile development with AI-native agile planning.",
+      "keywords": [
+        "sprintiq team",
+        "agile development team",
+        "sprint planning company"
+      ],
+      "type": "company",
+      "created": "2025-07-28T19:45:11.123Z"
+    },
+    {
+      "url": "/sprint-planning-guide",
+      "title": "Sprint Planning Guide - Complete Agile Sprint Planning Process",
+      "description": "Master sprint planning with our comprehensive guide. Learn best practices, techniques, and tools.",
+      "keywords": [
+        "sprint planning guide",
+        "agile sprint planning",
+        "sprint planning process"
+      ],
+      "type": "guide",
+      "created": "2025-07-28T19:45:11.123Z"
+    },
+    {
+      "url": "/sprintiq-vs-jira",
+      "title": "SprintiQ vs Jira - AI-Native Agile Planning vs Traditional Project Management",
+      "description": "Compare SprintiQ vs Jira for agile project management. See how AI-native agile planning outperforms traditional tools.",
+      "keywords": [
+        "sprintiq vs jira",
+        "jira alternative",
+        "agile project management tools"
+      ],
+      "type": "comparison",
+      "created": "2025-07-28T19:45:11.123Z"
+    }
+  ],
+  "keywords": [
+    "sprintiq",
+    "sprintiq ai",
+    "sprintiq app",
+    "sprintiq tool",
+    "sprintiq software",
+    "sprintiq platform",
+    "sprintiq sprint planning",
+    "sprintiq agile",
+    "sprintiq project management",
+    "sprintiq user stories",
+    "sprintiq ai tool",
+    "sprintiq free",
+    "sprintiq beta",
+    "sprintiq signup",
+    "sprintiq login",
+    "sprint planning",
+    "ai agile",
+    "agile project management",
+    "user story generation",
+    "sprint management",
+    "ai project management",
+    "agile development",
+    "scrum tools",
+    "backlog management",
+    "sprint optimization",
+    "AI-Native planning",
+    "agile software development",
+    "project management software",
+    "sprint retrospective",
+    "velocity tracking",
+    "story point estimation",
+    "agile methodology",
+    "sprint backlog",
+    "product backlog",
+    "jira alternative",
+    "asana alternative",
+    "trello alternative",
+    "monday.com alternative",
+    "clickup alternative",
+    "notion alternative",
+    "agile sprint planning",
+    "scrum sprint planning",
+    "sprint planning guide",
+    "agile methodology guide",
+    "user story examples",
+    "sprint retrospective tips",
+    "velocity tracking guide"
+  ],
+  "structuredData": [
+    {
+      "type": "SoftwareApplication",
+      "data": {
+        "name": "SprintiQ - AI-Native Agile Planning Tool",
+        "description": "#1 AI-native agile planning and agile project management platform"
+      },
+      "added": "2025-07-28T19:45:11.124Z"
+    },
+    {
+      "type": "Organization",
+      "data": {
+        "name": "SprintiQ",
+        "url": "https://www.sprintiq.ai",
+        "description": "AI-native agile planning and agile project management platform"
+      },
+      "added": "2025-07-28T19:45:11.124Z"
+    },
+    {
+      "type": "BreadcrumbList",
+      "data": {
+        "itemListElement": [
+          {
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.sprintiq.ai"
+          },
+          {
+            "position": 2,
+            "name": "Features",
+            "item": "https://www.sprintiq.ai/features"
+          },
+          {
+            "position": 3,
+            "name": "About",
+            "item": "https://www.sprintiq.ai/about"
+          }
+        ]
+      },
+      "added": "2025-07-28T19:45:11.124Z"
+    },
+    {
+      "type": "FAQPage",
+      "data": {
+        "mainEntity": [
+          {
+            "name": "What is SprintiQ?",
+            "acceptedAnswer": "SprintiQ is an AI-native agile planning tool that helps agile teams create user stories, plan sprints, and manage projects more efficiently."
+          },
+          {
+            "name": "Is SprintiQ free?",
+            "acceptedAnswer": "Yes, SprintiQ offers free early access with all features included for agile teams."
+          }
+        ]
+      },
+      "added": "2025-07-28T19:45:11.124Z"
+    },
+    {
+      "type": "WebSite",
+      "data": {
+        "name": "SprintiQ",
+        "url": "https://www.sprintiq.ai"
+      },
+      "added": "2025-07-28T19:45:11.124Z"
+    }
+  ],
+  "recommendations": ["Create more content pages for better SEO coverage"]
+}

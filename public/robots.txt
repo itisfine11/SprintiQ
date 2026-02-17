@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://sprintiq.ai/sitemap
+Sitemap: https://sprintiq.ai/sitemap.xml
+
+# Disallow admin and API routes
+Disallow: /admin/
+Disallow: /api/
+Disallow: /mcp/
+Disallow: /workspace/
+Disallow: /[workspaceId]/
+
+# Allow important pages
+Allow: /about
+Allow: /features
+Allow: /pricing
+Allow: /contact
+Allow: /support
+Allow: /faq
+Allow: /insights
+Allow: /use-case
+Allow: /sprintiq-vs-jira
+Allow: /sla
+Allow: /privacy
+Allow: /terms
+Allow: /investor-relations
+Allow: /join
+Allow: /dashboard
+Allow: /signin
+Allow: /signup
+Allow: /setup-workspace
+
+# Crawl delay (optional)
+Crawl-delay: 1 

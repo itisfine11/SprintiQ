@@ -1,0 +1,77 @@
+{
+  "pageLoadTimes": {
+    "/home": {
+      "loadTime": 1200,
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    },
+    "/about": {
+      "loadTime": 1100,
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    },
+    "/sprint-planning-guide": {
+      "loadTime": 1300,
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    },
+    "/sprintiq-vs-jira": {
+      "loadTime": 1250,
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    }
+  },
+  "imageOptimizations": [
+    {
+      "imagePath": "/images/sprintiq-logo.png",
+      "originalSize": 50000,
+      "optimizedSize": 15000,
+      "savings": "70.00",
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    },
+    {
+      "imagePath": "/images/sprintiq-turbo.png",
+      "originalSize": 120000,
+      "optimizedSize": 45000,
+      "savings": "62.50",
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    }
+  ],
+  "bundleSizes": {
+    "main": {
+      "size": 450,
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    },
+    "vendor": {
+      "size": 280,
+      "timestamp": "2025-07-28T21:24:51.988Z"
+    }
+  },
+  "lighthouseScores": {
+    "/home": {
+      "performance": 85,
+      "accessibility": 95,
+      "bestPractices": 90,
+      "seo": 95,
+      "timestamp": "2025-07-28T21:24:51.989Z"
+    },
+    "/about": {
+      "performance": 88,
+      "accessibility": 95,
+      "bestPractices": 90,
+      "seo": 95,
+      "timestamp": "2025-07-28T21:24:51.989Z"
+    },
+    "/sprint-planning-guide": {
+      "performance": 82,
+      "accessibility": 95,
+      "bestPractices": 90,
+      "seo": 95,
+      "timestamp": "2025-07-28T21:24:51.989Z"
+    },
+    "/sprintiq-vs-jira": {
+      "performance": 85,
+      "accessibility": 95,
+      "bestPractices": 90,
+      "seo": 95,
+      "timestamp": "2025-07-28T21:24:51.989Z"
+    }
+  },
+  "lastUpdated": "2025-07-28T21:24:51.988Z"
+}

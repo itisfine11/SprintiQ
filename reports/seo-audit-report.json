@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-08-09T06:16:30.591Z",
+  "metaTags": {
+    "title": null,
+    "description": null,
+    "keywords": null,
+    "ogTitle": null,
+    "ogDescription": null,
+    "twitterTitle": null,
+    "twitterDescription": null
+  },
+  "structuredData": {
+    "hasSchema": false,
+    "hasSoftwareApp": false,
+    "hasOrganization": false,
+    "hasFAQ": false
+  },
+  "technicalSEO": {
+    "sitemap": false,
+    "robots": false,
+    "ssl": false,
+    "speed": true,
+    "mobile": false
+  },
+  "contentOptimization": {
+    "h1Tags": 0,
+    "h2Tags": 0,
+    "h3Tags": 0,
+    "keywordDensity": 0,
+    "contentLength": 1,
+    "images": 0,
+    "internalLinks": 0
+  },
+  "score": "25.0"
+}
