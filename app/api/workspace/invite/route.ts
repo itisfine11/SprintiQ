@@ -3,7 +3,15 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import { Database } from "@/lib/database.types";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResendClient(): Resend {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    throw new Error(
+      "Missing RESEND_API_KEY. Set it in your environment for email sending."
+    );
+  }
+  return new Resend(apiKey);
+}
 
 export async function POST(request: Request) {
   try {
@@ -192,7 +200,7 @@ export async function POST(request: Request) {
 </html>
 `;
 
-    await resend.emails.send({
+    await getResendClient().emails.send({
       from: "SprintiQ <support@sprintiq.ai>",
       to: email,
       subject: `Invitation to join ${workspace.name} on SprintiQ`,

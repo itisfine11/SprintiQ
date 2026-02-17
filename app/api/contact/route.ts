@@ -2,7 +2,15 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { createServerSupabaseClient } from "@/lib/supabase/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResendClient(): Resend {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    throw new Error(
+      "Missing RESEND_API_KEY. Set it in your environment for email sending."
+    );
+  }
+  return new Resend(apiKey);
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -35,7 +43,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Send email via Resend
-    const { error } = await resend.emails.send({
+    const { error } = await getResendClient().emails.send({
       from: "SprintiQ Contact <no-reply@sprintiq.ai>",
       to: ["support@sprintiq.ai"],
       subject: `[Contact Form] ${subject}`,

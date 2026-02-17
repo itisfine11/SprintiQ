@@ -1,7 +1,15 @@
 import { Resend } from "resend";
 import { createServerSupabaseClient } from "./supabase/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+function getResendClient(): Resend {
+  const apiKey = process.env.RESEND_API_KEY;
+  if (!apiKey) {
+    throw new Error(
+      "Missing RESEND_API_KEY. Set it in your environment for email sending."
+    );
+  }
+  return new Resend(apiKey);
+}
 
 export interface EmailNotificationData {
   userId: string;
@@ -166,7 +174,7 @@ export async function sendEmailNotification(
   </body>
 </html>`;
 
-    await resend.emails.send({
+    await getResendClient().emails.send({
       from: "SprintiQ <support@sprintiq.ai>",
       to: profile.email,
       subject: subject,
@@ -321,7 +329,7 @@ export async function sendSignupConfirmationEmail(
   </body>
 </html>`;
 
-    await resend.emails.send({
+    await getResendClient().emails.send({
       from: "SprintiQ <support@sprintiq.ai>",
       to: userEmail,
       subject: subject,
@@ -464,7 +472,7 @@ export async function sendSupportTeamNotification(
   </body>
 </html>`;
 
-    await resend.emails.send({
+    await getResendClient().emails.send({
       from: "SprintiQ <noreply@sprintiq.ai>",
       to: "support@sprintiq.ai",
       subject: subject,
@@ -603,7 +611,7 @@ export async function sendApprovalEmail(
   </body>
 </html>`;
 
-    await resend.emails.send({
+    await getResendClient().emails.send({
       from: "SprintiQ <support@sprintiq.ai>",
       to: userEmail,
       subject: subject,
